@@ -1,0 +1,32 @@
+
+
+keep vector of unique_ptr's to  -> FVertex {mValue, accept()=0}
+								-> FOperand {accept(),bool trainable}, FOperator {list of input edge grads, mGrediant}
+								-> F<<specifics>> {accept()}
+
+
+for user interface, only 1 class is needed FNode{Key}, and free functions denoting all the operations
+
+implement placeholderassignvisitor
+implement forwardvisitor 
+
+
+implement a ResetVisiter, which -> resets values, grediants, edgegrediants of operations
+								-> resets values for placeholders
+								-> doesn't do anything for constants,variables since their values are supposed to persist
+
+
+implement BackwardVisitor, which -> computes and stores mGrediants for operators
+								 -> computes and applies grediants to mValue for variables
+								 -> doesn't do anything for constants and placeholders
+
+
+add fundamental operations substraction,division,power,sin,cos
+
+in forward visit, a variable can be visited multiple times, but during backwardvisit, grediant should be applied only once, same with operation
+nodes, so only keep unique elements in the vector
+
+
+try a regression model, model using 2 variables m*X + b, generate random data with noise that fits this curve, then minimize error
+
+keep placeholder for X and Y. lets assume there's 100 points

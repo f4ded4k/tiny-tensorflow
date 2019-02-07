@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RMAD", "RMAD\RMAD.vcxproj", "{C445BB55-B622-4D54-B794-2A5EC5CEB29D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Debug|x64.ActiveCfg = Debug|x64
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Debug|x64.Build.0 = Debug|x64
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Debug|x86.Build.0 = Debug|Win32
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Release|x64.ActiveCfg = Release|x64
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Release|x64.Build.0 = Release|x64
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Release|x86.ActiveCfg = Release|Win32
+		{C445BB55-B622-4D54-B794-2A5EC5CEB29D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61B28902-7A08-4C0E-9F74-211D11278A68}
+	EndGlobalSection
+EndGlobal
